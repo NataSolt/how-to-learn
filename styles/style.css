@@ -275,18 +275,14 @@
   color: white;
 }
 
-.footer__columns {
+.footer__column {
   margin: 60px auto 40px auto;
   flex-wrap: wrap;
   width: 90%;
-}
-
-.footer__column {
   display: flex;
   position: relative;
   flex-direction: row;
   justify-content: space-between;
-  height: 100%;
 }
 
 .footer__column_content_copyright {
