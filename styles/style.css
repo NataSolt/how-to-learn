@@ -275,7 +275,7 @@
   color: white;
 }
 
-.footer__column {
+.footer__columns {
   margin: 60px auto 40px auto;
   flex-wrap: wrap;
   width: 90%;
