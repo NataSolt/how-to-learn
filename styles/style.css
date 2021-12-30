@@ -16,25 +16,24 @@
 }
 
 .logo {
-  position: absolute;
   top: 30px;
   left: 64px;
   width: 183px;
 }
 
-.header__logo_plase_header {
+.logo_plase_header {
   height: 32px;
+  position: absolute;
  }
 
 .header__title {
-  position: absolute;
   width: 730px;
-  left: 64px;
   align-self: center;
   font-size: 102px;
   line-height: 96px;
   font-weight: bold;
   z-index: 3;
+  padding-left: 64px;
 }
 
 .header__subtitle {
@@ -150,6 +149,9 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
 }
 
 .table__cell {
@@ -165,6 +167,7 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
+  margin: 0;
 }
 
 .table__text {
@@ -179,29 +182,30 @@
   position: relative;
   min-height: 890px;
   background-color:#f2f2f2;
-  justify-content: center;
+  flex-direction: column;
 }
 
 .feynman__title {
-  position: absolute;
   width: 648px;
   font-size: 120px;
   line-height: 1.15;
   font-weight: bold;
   text-align: center;
-  margin-bottom: 70px;
+  margin: 100px auto 0 auto;
   z-index: 2;
+  justify-content: center;
+  align-content: center;
 }
 
 .feynman__subtitle {
-  position: absolute;
   font-size: 36px;
   line-height: 51px;
   font-weight: normal;
-  top: 50%;
+  justify-content: center;
+  align-content: center;
   text-align: center;
   z-index: 2;
-  margin: 0px;
+  margin: 70px auto 0 auto;
 }
 
 .feynman__link {
@@ -235,9 +239,10 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-}
+  }
 
 .kaufman__triangle {
+  background: url(../images/kaufman-triangle.svg);
   position: absolute;
   right: -210px;
   top: 0;
@@ -287,20 +292,20 @@
 
 .footer__column_content_copyright {
   flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .logo_place_footer {
   height: 35px;
-  top: 0;
-  left: 0;
 }
 
 .footer__author {
-  position: absolute;
   font-size: 18px;
   line-height: 25px;
   font-weight: normal;
-  bottom: 0;
   margin: 18px 0;
 }
 
