@@ -34,6 +34,7 @@
   font-weight: bold;
   z-index: 3;
   padding-left: 64px;
+  margin: 0;
 }
 
 .header__subtitle {
@@ -45,6 +46,7 @@
   line-height: 25px;
   font-weight: normal;
   z-index: 3;
+  margin: 0;
 }
 
 .header__link {
