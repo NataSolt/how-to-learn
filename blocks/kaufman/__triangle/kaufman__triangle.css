@@ -6,6 +6,6 @@
   background-size: contain;
   background-repeat: no-repeat;
   z-index: 1;
-  height: 877px;
-  width: 877px;
+  min-height: 877px;
+  min-width: 877px;
 }

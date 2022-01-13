@@ -5,9 +5,9 @@
   text-decoration: none;
   list-style-type: none;
   color: white;
+  transition: 0.35s;
 }
 
 .footer__column-link:hover {
   opacity: 0.5;
-  transition: 0.35s;
 }
