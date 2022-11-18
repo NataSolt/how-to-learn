@@ -3,4 +3,5 @@
   flex-direction: row;
   flex-wrap: nowrap;
   margin: 0;
+  align-items: start;
 }
